@@ -31,7 +31,7 @@ public class InputMismatchQuestion {
 			}
 			sc.nextLine();
 		}while(tester!=0);
-		System.out.println("Thanks for coming.");
+		System.out.println("Exit from the program");
 		
 		sc.close();
 	}
