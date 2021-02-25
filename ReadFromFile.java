@@ -10,7 +10,7 @@ public class ReadFromFile {
 			    BufferedInputStream bin=new BufferedInputStream(fin);    
 			    int i;    
 			    while((i=bin.read())!=-1)
-			    {    System.out.print(i);
+			    {   
 			     System.out.print((char)i);    
 			    }		    
 		    bin.close();    
